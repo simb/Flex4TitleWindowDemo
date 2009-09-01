@@ -1,0 +1,8 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/halo";
+@namespace c "com.pnwrain.demo.components.*";
+
+c|TitleWindow {
+	skin-class: ClassReference("com.pnwrain.demo.skins.TitleWindowSkin");
+}

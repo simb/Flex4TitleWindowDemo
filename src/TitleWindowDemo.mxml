@@ -5,15 +5,17 @@
 			import mx.controls.Alert;
 		]]>
 	</fx:Script>
+	<fx:Style source="style.css"  />
 	<s:layout>
-		<s:VerticalLayout />
+		<s:HorizontalLayout gap="20" paddingTop="20" paddingLeft="20" />
 	</s:layout>
-	<s:Panel title="this is the panel" width="300">	
+	<s:Panel title="this is the panel" width="300" height="300">	
 		<s:SimpleText text="Content in the Panel window" />
 	</s:Panel>
 	
-	<components:TitleWindow width="300" title="This is a title window" skinClass="com.pnwrain.demo.skins.TitleWindowSkin" close="Alert.show('Close Me');" >
+	<components:TitleWindow width="300" height="300" title="This is a title window" close="Alert.show('Close Me');" >
 		<s:SimpleText text="Content in the title window" />
 	</components:TitleWindow>
+	
 	
 </s:Application>

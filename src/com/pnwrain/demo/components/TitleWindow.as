@@ -9,7 +9,7 @@ package com.pnwrain.demo.components
 	import spark.components.Panel;
 
 	[Event(name="close")]
-
+	
 	public class TitleWindow extends spark.components.Panel
 	{
 		[SkinPart]
